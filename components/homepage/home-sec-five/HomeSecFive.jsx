@@ -1,5 +1,6 @@
 import AOS from "@/templates/AOS";
 import PrimaryButton from "@/templates/PrimaryButton";
+import SOS from "@/templates/SOS";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import React from "react";
@@ -11,13 +12,13 @@ const HomeSecFive = () => {
         <Box py={5}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={12} md={6}>
-              <AOS>
+              <SOS>
                 <img
                   src="/images/gallery/about.png"
                   alt="About Me"
                   width={"100%"}
                 />
-              </AOS>
+              </SOS>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
               <AOS>

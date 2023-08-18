@@ -49,7 +49,7 @@ const HomeSecFour = () => {
         <Box py={5}>
           <SOS>
             <Typography
-              variant="h1"
+              variant="h2"
               fontWeight={"bold"}
               className="stroked"
               textAlign={"center"}
